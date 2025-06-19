@@ -1,0 +1,52 @@
+.card {
+  border: 2px solid #444;
+  border-radius: 12px;
+  padding: 20px;
+  margin: 15px auto;
+  width: 300px;
+  background-color: #fefefe;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  text-align: center;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  background-color: #eef;
+}
+
+.name {
+  font-size: 22px;
+  color: #2a2a2a;
+  margin: 10px 0;
+}
+
+.info {
+  font-size: 15px;
+  color: #555;
+}
+
+.image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+  border: 3px solid #ccc;
+}
+
+.email {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 5px 12px;
+  background-color: #145380;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 8px;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+.email:hover {
+  background-color: #005fa3;
+}
